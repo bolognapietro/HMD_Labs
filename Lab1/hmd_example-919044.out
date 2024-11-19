@@ -1,0 +1,7 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.64s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.59s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.90s/it]
+Some parameters are on the meta device device because they were offloaded to the cpu.
+ Hello! Welcome to Pizza World! *adjusts glasses* What can I get for you today? 🍕👀
+
+Would you like a classic margherita, a meat-lovers, or perhaps something more adventurous like our BBQ chicken pizza? 🤔
+
+And don't forget to choose your crust!
