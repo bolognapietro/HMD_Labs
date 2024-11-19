@@ -1,0 +1,14 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:08<00:08,  8.30s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:10<00:00,  4.54s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:10<00:00,  5.11s/it]
+Some parameters are on the meta device device because they were offloaded to the cpu.
+ Of course! Here are 10 examples of users asking to order a pizza:
+
+1. "Hey, can I please order a large pepperoni pizza for delivery tonight?"
+2. "Can you help me place an order for a veggie lovers pizza? I'd like to pick it up in 30 minutes."
+3. "I'd like to order a medium cheese pizza with extra sausage, please. Can you have it ready in an hour?"
+4. "Can you please give me a quote for a pizza party for 10 people? We'd like to order a variety of toppings and have it delivered to our office."
+5. "I'm feeling hungry and I want a slice of pizza now. Can I order a slice of cheese pizza to go?"
+6. "Can you help me place an order for a gluten-free pizza? I'd like to pick it up in 45 minutes."
+7. "I'd like to order a meat lovers pizza with extra toppings. Can you have it ready in 2 hours?"
+8. "Can you please give me a list of your specialty pizzas? I'm not sure what I want yet."
+9. "I'd like to order a pizza for tomorrow night. Can I place the order now and pick it up then?"
+10. "Can you help me order a pizza for a party of 20 people? We'd like to have it delivered to our house in 2 hours."
