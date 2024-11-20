@@ -1,0 +1,3 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:05<00:05,  5.25s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  2.93s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  3.28s/it]
+Some parameters are on the meta device device because they were offloaded to the cpu.
+ Based on the user input "I want a cheese pizza", the intent of the user is to place an order for a cheese pizza. Therefore, the category of the user's intent is "pizza_ordering".
