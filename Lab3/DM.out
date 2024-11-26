@@ -1,0 +1,19 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:09<00:09,  9.11s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:11<00:00,  5.22s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:11<00:00,  5.80s/it]
+Some parameters are on the meta device device because they were offloaded to the cpu.
+ As the Dialogue Manager, I understand that you have received an input from the NLU component with the following slots:
+
+* canederli_type: meat
+* canederli_broth: null
+* canederli_cheese_on_top: null
+* canederli_spiece: null
+* canederli_gluten: null
+* canederli_count: null
+* canederli_size: null
+
+Based on the input, I determine that one or more slots are missing values (null). Therefore, the best action to take is to request information for the missing slots using the `request_info` action.
+
+Here is the action I will take:
+
+* `request_info(slot="canederli_broth")`
+
+I will now prompt the user to provide the value for the `canederli_broth` slot.

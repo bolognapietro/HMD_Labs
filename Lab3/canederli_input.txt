@@ -1,0 +1,17 @@
+{
+    "NLU" : {
+        intent : "canederli_ordering", 
+        slots : {
+            "canederli_type": "meat",
+            "canederli_broth": null,
+            "canederli_cheese_on_top": null,
+            "canederli_spiece": null,
+            "canederli_gluten": null,
+            "canederli_count": null,
+            "canederli_size": null
+        }
+    },
+    "DM": {
+        "next_best_action": "request_info(canederli_broth)"
+    }
+}

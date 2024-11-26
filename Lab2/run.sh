@@ -16,5 +16,6 @@ if [ ! -f "$PROMPT_FILE" ]; then
 fi
 
 # Run the sbatch command with the provided prompt file
-sbatch example.sbatch --system-prompt "$(cat "$PROMPT_FILE")" llama2 "I want a cheese pizza" --max_seq_length 1000
+sbatch example.sbatch --reservation=hmd-2024-tue --system-prompt "$(cat "$PROMPT_FILE")" llama2 "I want a cheese pizza" --max_seq_length 1000
 
+# --reservation=hmd-2024-wed

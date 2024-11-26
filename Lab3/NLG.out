@@ -1,0 +1,9 @@
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:08<00:08,  8.17s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:11<00:00,  5.41s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:11<00:00,  5.82s/it]
+Some parameters are on the meta device device because they were offloaded to the cpu.
+ Hello there! 😊 Thank you for choosing to order canederli today! 🍲
+
+May I kindly ask for more information about the broth you would like to go with your canederli? 🤔 Would you like it to be beef, chicken, or vegetable broth? Or perhaps you have a different preference? 😊
