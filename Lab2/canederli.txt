@@ -1,0 +1,5 @@
+First, identify the user intent.
+If the intent is canederli_ordering, extract the slots values from the input of the user.
+The slots are: [canederli_type, canederli_broth, canederli_cheese_on_top, canederli_spiece, canederli_gluten, canederli_count, canederli_size].
+In no values are present in the user input you have to put null as the value.
+Output them as a json.

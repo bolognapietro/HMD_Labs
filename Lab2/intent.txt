@@ -1,0 +1,1 @@
+Extract the intent of the user input. Select from: [pizza_ordering, pizza_delivery, flight_booking, drink_ordering]

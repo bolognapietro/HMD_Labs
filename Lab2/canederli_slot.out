@@ -1,0 +1,26 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:06<00:06,  6.46s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.55s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.98s/it]
+Some parameters are on the meta device device because they were offloaded to the cpu.
+ Sure! Let's identify the user intent and extract the slot values from the input.
+
+User Intent: canederli_ordering
+
+Slot Values:
+
+1. canederli_type: meat
+2. canederli_broth: meat broth
+3. canederli_cheese_on_top: true
+4. canederli_spiece: meat
+5. canederli_gluten: null
+6. canederli_count: 1
+7. canederli_size: small
+
+Output as JSON:
+{
+"canederli_type": "meat",
+"canederli_broth": "meat broth",
+"canederli_cheese_on_top": true,
+"canederli_spiece": "meat",
+"canederli_gluten": null,
+"canederli_count": 1,
+"canederli_size": "small"
+}
