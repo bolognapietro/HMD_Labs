@@ -1,4 +1,4 @@
-## Recap
+## Lab 3 - Recap
 - Lab1 - Input: User Input 
 - Lab2 - NLU: JSON: Intent, Slot (bool, int, string)
 - Lab3 - DM

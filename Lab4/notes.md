@@ -1,4 +1,4 @@
-# Pipeline
+# Lab 4 - Pipeline
 
 User input -> [NLU] -> Meaning representation -> [DM] -> NBA -> [NLG] -> System response
 - *NLU* (info extraction): 

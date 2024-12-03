@@ -38,7 +38,7 @@ def query_model(model_name, system_prompt, input_text, type_name, max_seq_len=12
         messages
     )
 
-    with open('log.txt', 'a') as f:
+    with open('Lab5/log.txt', 'a') as f:
         f.write(type_name + '\n' + response['message']['content'] + '\n\n')
 
     return response['message']['content']

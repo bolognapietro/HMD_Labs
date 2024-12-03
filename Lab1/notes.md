@@ -1,4 +1,4 @@
-## LLM
+## Lab 1 - LLM
 
 ***Input --> NLU --> MR --> DM --> SA --> NLG -->output***
 

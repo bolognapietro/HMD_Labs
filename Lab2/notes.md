@@ -1,4 +1,4 @@
-# Natural Language Understanding
+# Lab 2 - Natural Language Understanding
 
 ## Example
 
