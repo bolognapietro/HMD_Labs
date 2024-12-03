@@ -1,0 +1,20 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:32<00:32, 32.73s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:42<00:00, 19.38s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:42<00:00, 21.38s/it]
+Some parameters are on the meta device device because they were offloaded to the cpu.
+ Sure, I can help you with that!
+
+Based on your input, the user intent is "canederli_ordering". Here are the extracted slots and their values:
+
+{
+    "intent": "canederli_ordering",
+    "slots": {
+        "type": "meat",
+        "broth": null,
+        "cheese_on_top": null,
+        "spiece": null,
+        "gluten": null,
+        "count": null,
+        "size": null
+    }
+}
+
+I hope this helps! Let me know if you have any other questions.

@@ -1,0 +1,5 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:10<00:10, 10.40s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  5.86s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.54s/it]
+Some parameters are on the meta device device because they were offloaded to the cpu.
+ Great, thank you for providing the user input! Based on the slots filled in the user input, I recommend the following action:
+
+"Would you like to add cheese on top of your Canederli? (yes/no)"

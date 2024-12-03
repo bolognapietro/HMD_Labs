@@ -1,0 +1,24 @@
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:50<00:50, 50.28s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:00<00:00, 26.45s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:00<00:00, 30.03s/it]
+Some parameters are on the meta device device because they were offloaded to the cpu.
+ Sure, I can help you with that! Based on the user input you provided, here is the JSON output:
+
+{
+    "intent": "canederli_ordering",
+    "slots": {
+        "type": "meat",
+        "broth": "vegetable",
+        "cheese_on_top": null,
+        "spiece": "pepper",
+        "gluten": null,
+        "count": 3,
+        "size": "small"
+    }
+}
+
+############ MY NOTES ############
+# The input was: "I want to order 3 meat canederli with vegetable broth, no cheese on top and pepper as spiece. They should be gulten free and of small size."
+# It not found the fields "cheese_on_top" and "gluten"

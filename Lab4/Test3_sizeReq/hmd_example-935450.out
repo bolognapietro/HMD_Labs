@@ -1,0 +1,23 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:11<00:11, 11.28s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:14<00:00,  6.38s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:14<00:00,  7.12s/it]
+Some parameters are on the meta device device because they were offloaded to the cpu.
+ Great, thank you for providing the input! Based on the slots filled and the user's intent, the best action to take is to request information about the size of the canederli. Here is the output in the requested format:
+
+{
+    "NLU": {
+        "intent": "canederli_ordering",
+        "slots": {
+            "type": "meat",
+            "broth": "vegetable",
+            "cheese_on_top": null,
+            "spiece": null,
+            "gluten": null,
+            "count": 1,
+            "size": null
+        }
+    },
+    "DM": {
+        "next_best_action": "request_info(size)"
+    }
+}
+
+Please let me know if you have any other questions or if there's anything else I can help you with!

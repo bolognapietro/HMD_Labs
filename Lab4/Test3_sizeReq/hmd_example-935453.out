@@ -1,0 +1,5 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:12<00:12, 12.01s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:17<00:00,  8.39s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:17<00:00,  8.93s/it]
+Some parameters are on the meta device device because they were offloaded to the cpu.
+ Great, thank you for letting me know! Here is the requested sentence:
+
+"Could you please tell me the size of the canederli you would like to order?"

@@ -1,0 +1,26 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:14<00:14, 14.86s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:28<00:00, 14.12s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:28<00:00, 14.23s/it]
+Some parameters are on the meta device device because they were offloaded to the cpu.
+ Sure, I can help you with that! Based on your input, the user intent is "canederli_ordering" and the slots are:
+
+* type: meat
+* broth: vegetable
+* cheese_on_top: null
+* spiece: null
+* gluten: null
+* count: 1
+* size: null
+
+Here is the output in the requested format:
+
+{
+    "intent": "canederli_ordering",
+    "slots": {
+        "type": "meat",
+        "broth": "vegetable",
+        "cheese_on_top": null,
+        "spiece": null,
+        "gluten": null,
+        "count": 1,
+        "size": null
+    }
+}

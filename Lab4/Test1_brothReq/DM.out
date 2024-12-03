@@ -1,0 +1,23 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:10<00:10, 10.12s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  5.88s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:13<00:00,  6.52s/it]
+Some parameters are on the meta device device because they were offloaded to the cpu.
+ Great, thank you for providing the NLU output! Based on the output you provided, the best action to take is to request information about the missing slot values. Here's the updated JSON response:
+
+{
+    "NLU" : {
+        "intent": "canederli_ordering",
+        "slots": {
+            "type": "meat",
+            "broth": null,
+            "cheese_on_top": null,
+            "spiece": null,
+            "gluten": null,
+            "count": null,
+            "size": null
+        }
+    },
+    "DM" : {
+        "next_best_action": "request_info(slot='broth')"
+    }
+}
+
+The action "request_info(slot='broth')" is being suggested because the slot value for "broth" is missing or null.

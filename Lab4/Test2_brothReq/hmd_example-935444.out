@@ -1,0 +1,5 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:34<00:34, 34.56s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:38<00:00, 16.37s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:38<00:00, 19.10s/it]
+Some parameters are on the meta device device because they were offloaded to the cpu.
+ Thank you for the update! Based on the next best action of "request_info(slot='broth')", I will generate a question for the user to provide the value for the "broth" slot:
+
+"Excuse me, could you please tell me what type of broth you would like to add to your canederli order?"
