@@ -1,99 +1,64 @@
-import subprocess
-import time
-import re
 import os
-import json
+import ollama
+# import logging
 
-def extract_json_block(input_file, output_file):
-    with open(input_file, 'r') as infile, open(output_file, 'w') as outfile:
-        content = infile.read()
-        # Find the start of the JSON block (assumes it starts with '{')
-        start_index = content.find('cpu.')
-        if start_index != -1:
-            # Write the JSON block to the output file
-            outfile.write(content[start_index+5:])
+# Configure logging
+# logging.basicConfig(level=logging.DEBUG)
+# logger = logging.getLogger(_name_)
 
-def convert_out_to_txt(out_file, txt_file):
-    try:
-        with open(out_file, 'r') as infile, open(txt_file, 'w') as outfile:
-            content = infile.read()
-            outfile.write(content)
-        print(f"Converted '{out_file}' to '{txt_file}' successfully.")
-    except FileNotFoundError:
-        print(f"Error: File '{out_file}' not found.")
-    except Exception as e:
-        print(f"An error occurred: {e}")
+class ModelQuery:
+    def __init__(self):
+        self.history = []
 
-def wait_file(file_path, interval=2):
-    while 1:
-        try:
-            with open(file_path, 'r') as f:
-                content = f.read()
-                print("Checking file content...")
-                print(content)
-                
-                match = re.search(r'\{', content, re.DOTALL)
-                if match:
-                    return 
-        except Exception as e:
-            print(f"Error reading the file: {e}")
-            
-        time.sleep(interval)
+    def add_to_history(self, message):
+        """Add a message to the history."""
+        self.history.append(message)
 
-    print("Timeout reached. Dictionary not found.")
-    return None
+    def action_history_str(self):
+        """Return the history as a string."""
+        return "\n".join(self.history)
 
-def run_bash_script(script_path, file1, file2):
-    try:
-        # Run the Bash script with the file arguments
-        result = subprocess.run(['bash', script_path, file1, file2], check=True, text=True, capture_output=True)
-        print("Script output:")
-        return result.stdout
-    except subprocess.CalledProcessError as e:
-        print(f"Error occurred while running the script: {e}")
-        print("Script error output:")
-        print(e.stderr)
+    @staticmethod
+    def load_content(content):
+        """Load content from a file or return the string itself."""
+        if os.path.isfile(content):  
+            with open(content, 'r') as f:
+                return f.read()
+        return content  
 
-#! First Iteration
-# Paths to your Bash script and text files
-bash_script_path = 'Lab4/run.sh'
-file1 = 'Lab4/sys_prompt_NLU.txt'
-file2 = input("Enter the user input: ")
-# Run the Bash script
-id = run_bash_script(bash_script_path, file1, file2)
+    def query_model(self, system_prompt, input_file, model_name="llama3.2"):
+        # Load system prompt and user input
+        system_prompt = self.load_content(system_prompt)
+        user_input = self.load_content(input_file)
 
-#! Second Iteration
-match = re.search(r'Submitted batch job (\d+)', id)
-id = match.group(1)
-out_file = f"hmd_example-{id}.out"
-txt_file = f"hmd_example-{id}-nc.txt"
-wait_file(out_file)
+        # Ensure the user environment is correct
+        user_env = os.getenv('USER')
 
-convert_out_to_txt(out_file, txt_file)
-extract_json_block(txt_file, f"hmd_example-{id}.txt")
-os.remove(txt_file)
+        if user_env == 'pietro.bologna':
+            # Add user input to history
+            self.add_to_history(user_input)
 
-# Paths to your Bash script and text files
-file1 = 'Lab4/sys_prompt_DM.txt'
-file2 = f"hmd_example-{id}.txt"
-# Run the Bash script
-id = run_bash_script(bash_script_path, file1, file2)
-os.remove(file2)
+            # Combine history with the system prompt
+            consolidated_system_prompt = f"{self.action_history_str()}\n{system_prompt}"
 
-#! Third Iteration
-match = re.search(r'Submitted batch job (\d+)', id)
-id = match.group(1)
-out_file = f"hmd_example-{id}.out"
-txt_file = f"hmd_example-{id}-nc.txt"
-wait_file(out_file)
+            # Prepare messages with a single system prompt
+            messages = [
+                {'role': 'system', 'content': consolidated_system_prompt},
+                {'role': 'user', 'content': user_input}
+            ]
 
-convert_out_to_txt(out_file, txt_file)
-extract_json_block(txt_file, f"hmd_example-{id}.txt")
-os.remove(txt_file)
+            # Call the model
+            response = ollama.chat(
+                model=model_name,
+                messages=messages
+            )
+            return response['message']['content']
+        else:
+            raise ValueError('Unknown user environment. Please set the USER environment variable.')
 
-# Paths to your Bash script and text files
-file1 = 'Lab4/sys_prompt_NLG.txt'
-file2 = f"hmd_example-{id}.txt"
-# Run the Bash script
-id = run_bash_script(bash_script_path, file1, file2)
-os.remove(file2)
+os.environ['USER'] = "pietro.bologna"
+model = ModelQuery()
+system_prompt = "You are a helpful assistant specializing in artificial intelligence."
+user_input = "What are the latest advancements in AI?"
+response = model.query_model(system_prompt, user_input)
+print(f"Model Response: {response}")

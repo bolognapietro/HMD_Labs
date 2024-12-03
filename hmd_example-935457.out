@@ -1,23 +1,0 @@
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:13<00:13, 13.66s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:16<00:00,  7.21s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:16<00:00,  8.18s/it]
-Some parameters are on the meta device device because they were offloaded to the cpu.
- Great, thank you for providing the user input! Based on the slots filled in the user input, I recommend the following action:
-
-{
-    "NLU": {
-        "intent": "canederli_ordering",
-        "slots": {
-            "type": "meat",
-            "broth": "vegetable",
-            "cheese_on_top": null,
-            "spiece": "pepper",
-            "gluten": null,
-            "count": 3,
-            "size": "small"
-        }
-    },
-    "DM": {
-        "next_best_action": "confirmation(intent=canederli_ordering)"
-    }
-}
-
-As you can see, I have added the "confirmation" action to the "DM" part of the JSON, indicating that the user has filled all the required slots and the next step is to confirm the order.
