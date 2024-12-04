@@ -1,0 +1,36 @@
+NLU
+{
+  "intent": "canederli_ordering",
+  "slots": {
+    "type": "meat",
+    "broth": null,
+    "cheese_on_top": null,
+    "spiece": null,
+    "gluten": null,
+    "count": null,
+    "size": null
+  }
+}
+
+DM
+{
+  "NLU" : {
+    "intent": "canederli_ordering",
+    "slots": {
+      "type": "",
+      "broth":null,
+      "cheese_on_top":null,
+      "spiece":null,
+      "gluten":null,
+      "count":null,
+      "size":null
+    }
+  },
+  "DM" : {
+    "next_best_action": "request_info(slot="")"
+  }
+}
+
+NLG
+Would you like to know our available Canederli sizes?
+
