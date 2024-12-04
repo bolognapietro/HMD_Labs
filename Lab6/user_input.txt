@@ -1,0 +1,359 @@
+I would like to order a meat canederli with chicken broth.
+
+I would like to order a meat canederli with beef broth.
+
+I would like to order a meat canederli with vegetable broth.
+
+I would like to order a cheese canederli with chicken broth.
+
+I would like to order a cheese canederli with beef broth.
+
+I would like to order a cheese canederli with vegetable broth.
+
+I would like to order a spinach canederli with chicken broth.
+
+I would like to order a spinach canederli with beef broth.
+
+I would like to order a spinach canederli with vegetable broth.
+
+I would like to order one meat canederli with chicken broth.
+
+I would like to order one meat canederli with beef broth.
+
+I would like to order one meat canederli with vegetable broth.
+
+I would like to order one cheese canederli with chicken broth.
+
+I would like to order one cheese canederli with beef broth.
+
+I would like to order one cheese canederli with vegetable broth.
+
+I would like to order one spinach canederli with chicken broth.
+
+I would like to order one spinach canederli with beef broth.
+
+I would like to order one spinach canederli with vegetable broth.
+
+I would like to order 2 meat canederli with chicken broth.
+
+I would like to order 2 meat canederli with beef broth.
+
+I would like to order 2 meat canederli with vegetable broth.
+
+I would like to order 2 cheese canederli with chicken broth.
+
+I would like to order 2 cheese canederli with beef broth.
+
+I would like to order 2 cheese canederli with vegetable broth.
+
+I would like to order 2 spinach canederli with chicken broth.
+
+I would like to order 2 spinach canederli with beef broth.
+
+I would like to order 2 spinach canederli with vegetable broth.
+
+I would like to order two meat canederli with chicken broth.
+
+I would like to order two meat canederli with beef broth.
+
+I would like to order two meat canederli with vegetable broth.
+
+I would like to order two cheese canederli with chicken broth.
+
+I would like to order two cheese canederli with beef broth.
+
+I would like to order two cheese canederli with vegetable broth.
+
+I would like to order two spinach canederli with chicken broth.
+
+I would like to order two spinach canederli with beef broth.
+
+I would like to order two spinach canederli with vegetable broth.
+
+I want a meat canederli with chicken broth.
+
+I want a meat canederli with beef broth.
+
+I want a meat canederli with vegetable broth.
+
+I want a cheese canederli with chicken broth.
+
+I want a cheese canederli with beef broth.
+
+I want a cheese canederli with vegetable broth.
+
+I want a spinach canederli with chicken broth.
+
+I want a spinach canederli with beef broth.
+
+I want a spinach canederli with vegetable broth.
+
+I want one meat canederli with chicken broth.
+
+I want one meat canederli with beef broth.
+
+I want one meat canederli with vegetable broth.
+
+I want one cheese canederli with chicken broth.
+
+I want one cheese canederli with beef broth.
+
+I want one cheese canederli with vegetable broth.
+
+I want one spinach canederli with chicken broth.
+
+I want one spinach canederli with beef broth.
+
+I want one spinach canederli with vegetable broth.
+
+I want 2 meat canederli with chicken broth.
+
+I want 2 meat canederli with beef broth.
+
+I want 2 meat canederli with vegetable broth.
+
+I want 2 cheese canederli with chicken broth.
+
+I want 2 cheese canederli with beef broth.
+
+I want 2 cheese canederli with vegetable broth.
+
+I want 2 spinach canederli with chicken broth.
+
+I want 2 spinach canederli with beef broth.
+
+I want 2 spinach canederli with vegetable broth.
+
+I want two meat canederli with chicken broth.
+
+I want two meat canederli with beef broth.
+
+I want two meat canederli with vegetable broth.
+
+I want two cheese canederli with chicken broth.
+
+I want two cheese canederli with beef broth.
+
+I want two cheese canederli with vegetable broth.
+
+I want two spinach canederli with chicken broth.
+
+I want two spinach canederli with beef broth.
+
+I want two spinach canederli with vegetable broth.
+
+Could I have a meat canederli and chicken broth?
+
+Could I have a meat canederli and beef broth?
+
+Could I have a meat canederli and vegetable broth?
+
+Could I have a cheese canederli and chicken broth?
+
+Could I have a cheese canederli and beef broth?
+
+Could I have a cheese canederli and vegetable broth?
+
+Could I have a spinach canederli and chicken broth?
+
+Could I have a spinach canederli and beef broth?
+
+Could I have a spinach canederli and vegetable broth?
+
+Could I have one meat canederli and chicken broth?
+
+Could I have one meat canederli and beef broth?
+
+Could I have one meat canederli and vegetable broth?
+
+Could I have one cheese canederli and chicken broth?
+
+Could I have one cheese canederli and beef broth?
+
+Could I have one cheese canederli and vegetable broth?
+
+Could I have one spinach canederli and chicken broth?
+
+Could I have one spinach canederli and beef broth?
+
+Could I have one spinach canederli and vegetable broth?
+
+Could I have 2 meat canederli and chicken broth?
+
+Could I have 2 meat canederli and beef broth?
+
+Could I have 2 meat canederli and vegetable broth?
+
+Could I have 2 cheese canederli and chicken broth?
+
+Could I have 2 cheese canederli and beef broth?
+
+Could I have 2 cheese canederli and vegetable broth?
+
+Could I have 2 spinach canederli and chicken broth?
+
+Could I have 2 spinach canederli and beef broth?
+
+Could I have 2 spinach canederli and vegetable broth?
+
+Could I have two meat canederli and chicken broth?
+
+Could I have two meat canederli and beef broth?
+
+Could I have two meat canederli and vegetable broth?
+
+Could I have two cheese canederli and chicken broth?
+
+Could I have two cheese canederli and beef broth?
+
+Could I have two cheese canederli and vegetable broth?
+
+Could I have two spinach canederli and chicken broth?
+
+Could I have two spinach canederli and beef broth?
+
+Could I have two spinach canederli and vegetable broth?
+
+Hi, can I get just a meat canederli with chicken broth?
+
+Hi, can I get just a meat canederli with beef broth?
+
+Hi, can I get just a meat canederli with vegetable broth?
+
+Hi, can I get just a cheese canederli with chicken broth?
+
+Hi, can I get just a cheese canederli with beef broth?
+
+Hi, can I get just a cheese canederli with vegetable broth?
+
+Hi, can I get just a spinach canederli with chicken broth?
+
+Hi, can I get just a spinach canederli with beef broth?
+
+Hi, can I get just a spinach canederli with vegetable broth?
+
+Hi, can I get just one meat canederli with chicken broth?
+
+Hi, can I get just one meat canederli with beef broth?
+
+Hi, can I get just one meat canederli with vegetable broth?
+
+Hi, can I get just one cheese canederli with chicken broth?
+
+Hi, can I get just one cheese canederli with beef broth?
+
+Hi, can I get just one cheese canederli with vegetable broth?
+
+Hi, can I get just one spinach canederli with chicken broth?
+
+Hi, can I get just one spinach canederli with beef broth?
+
+Hi, can I get just one spinach canederli with vegetable broth?
+
+Hi, can I get just 2 meat canederli with chicken broth?
+
+Hi, can I get just 2 meat canederli with beef broth?
+
+Hi, can I get just 2 meat canederli with vegetable broth?
+
+Hi, can I get just 2 cheese canederli with chicken broth?
+
+Hi, can I get just 2 cheese canederli with beef broth?
+
+Hi, can I get just 2 cheese canederli with vegetable broth?
+
+Hi, can I get just 2 spinach canederli with chicken broth?
+
+Hi, can I get just 2 spinach canederli with beef broth?
+
+Hi, can I get just 2 spinach canederli with vegetable broth?
+
+Hi, can I get just two meat canederli with chicken broth?
+
+Hi, can I get just two meat canederli with beef broth?
+
+Hi, can I get just two meat canederli with vegetable broth?
+
+Hi, can I get just two cheese canederli with chicken broth?
+
+Hi, can I get just two cheese canederli with beef broth?
+
+Hi, can I get just two cheese canederli with vegetable broth?
+
+Hi, can I get just two spinach canederli with chicken broth?
+
+Hi, can I get just two spinach canederli with beef broth?
+
+Hi, can I get just two spinach canederli with vegetable broth?
+
+Excuse me, I would like to order a meat canederli with chicken broth.
+
+Excuse me, I would like to order a meat canederli with beef broth.
+
+Excuse me, I would like to order a meat canederli with vegetable broth.
+
+Excuse me, I would like to order a cheese canederli with chicken broth.
+
+Excuse me, I would like to order a cheese canederli with beef broth.
+
+Excuse me, I would like to order a cheese canederli with vegetable broth.
+
+Excuse me, I would like to order a spinach canederli with chicken broth.
+
+Excuse me, I would like to order a spinach canederli with beef broth.
+
+Excuse me, I would like to order a spinach canederli with vegetable broth.
+
+Excuse me, I would like to order one meat canederli with chicken broth.
+
+Excuse me, I would like to order one meat canederli with beef broth.
+
+Excuse me, I would like to order one meat canederli with vegetable broth.
+
+Excuse me, I would like to order one cheese canederli with chicken broth.
+
+Excuse me, I would like to order one cheese canederli with beef broth.
+
+Excuse me, I would like to order one cheese canederli with vegetable broth.
+
+Excuse me, I would like to order one spinach canederli with chicken broth.
+
+Excuse me, I would like to order one spinach canederli with beef broth.
+
+Excuse me, I would like to order one spinach canederli with vegetable broth.
+
+Excuse me, I would like to order 2 meat canederli with chicken broth.
+
+Excuse me, I would like to order 2 meat canederli with beef broth.
+
+Excuse me, I would like to order 2 meat canederli with vegetable broth.
+
+Excuse me, I would like to order 2 cheese canederli with chicken broth.
+
+Excuse me, I would like to order 2 cheese canederli with beef broth.
+
+Excuse me, I would like to order 2 cheese canederli with vegetable broth.
+
+Excuse me, I would like to order 2 spinach canederli with chicken broth.
+
+Excuse me, I would like to order 2 spinach canederli with beef broth.
+
+Excuse me, I would like to order 2 spinach canederli with vegetable broth.
+
+Excuse me, I would like to order two meat canederli with chicken broth.
+
+Excuse me, I would like to order two meat canederli with beef broth.
+
+Excuse me, I would like to order two meat canederli with vegetable broth.
+
+Excuse me, I would like to order two cheese canederli with chicken broth.
+
+Excuse me, I would like to order two cheese canederli with beef broth.
+
+Excuse me, I would like to order two cheese canederli with vegetable broth.
+
+Excuse me, I would like to order two spinach canederli with chicken broth.
+
+Excuse me, I would like to order two spinach canederli with beef broth.
+
+Excuse me, I would like to order two spinach canederli with vegetable broth.
